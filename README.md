@@ -3,11 +3,6 @@
 #define BLYNK_TEMPLATE_NAME "FULL HOME AUTOMATION"
 #define BLYNK_PRINT Serial
 
-//Put this in a separate file and call it back for high security.
-#define SECRET_AUTH_TOKEN "Token "//Enter the token
-#define SECRET_SSID " Wi-Fi name "//Enter the Wi-Fi name
-#define SECRET_PASS " password "//Enter your password
-
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <LiquidCrystal_I2C.h>
