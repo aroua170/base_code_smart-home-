@@ -1,7 +1,5 @@
-#include <LiquidCrystal_I2C.h>
-#include <ESP8266WiFi.h>
+#include "security.h" 
 #include <BlynkSimpleEsp8266.h>
-#include <WiFiClientSecure.h>
 #include <DHT.h>
 #include <AESLib.h>
 
@@ -9,11 +7,6 @@
 #define BLYNK_TEMPLATE_ID "TMPL22DhPZES"
 #define BLYNK_TEMPLATE_NAME "FULL HOME AUTOMATION"
 #define BLYNK_PRINT Serial
-
-// Device Credentials (should be stored securely)
-char auth[] = "*********" ";
-char ssid[] = "***";
-char pass[] = "*********" ";
 
 // Hardware Definitions
 #define BUZZER_PIN D0
